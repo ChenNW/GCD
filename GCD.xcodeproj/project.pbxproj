@@ -15,6 +15,7 @@
 		7149C32F1E84E5D90049D456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7149C32D1E84E5D90049D456 /* LaunchScreen.storyboard */; };
 		7149C33A1E84E5D90049D456 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149C3391E84E5D90049D456 /* GCDTests.m */; };
 		7149C3451E84E5D90049D456 /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149C3441E84E5D90049D456 /* GCDUITests.m */; };
+		7149C3541E88A1050049D456 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149C3531E88A1050049D456 /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7149C3401E84E5D90049D456 /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7149C3441E84E5D90049D456 /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		7149C3461E84E5D90049D456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7149C3521E88A1050049D456 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		7149C3531E88A1050049D456 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7149C32D1E84E5D90049D456 /* LaunchScreen.storyboard */,
 				7149C3301E84E5D90049D456 /* Info.plist */,
 				7149C31F1E84E5D90049D456 /* Supporting Files */,
+				7149C3521E88A1050049D456 /* Tool.h */,
+				7149C3531E88A1050049D456 /* Tool.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				7149C3271E84E5D90049D456 /* ViewController.m in Sources */,
 				7149C3241E84E5D90049D456 /* AppDelegate.m in Sources */,
 				7149C3211E84E5D90049D456 /* main.m in Sources */,
+				7149C3541E88A1050049D456 /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +520,7 @@
 				7149C34B1E84E5D90049D456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7149C34C1E84E5D90049D456 /* Build configuration list for PBXNativeTarget "GCDTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				7149C34E1E84E5D90049D456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7149C34F1E84E5D90049D456 /* Build configuration list for PBXNativeTarget "GCDUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				7149C3511E84E5D90049D456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
